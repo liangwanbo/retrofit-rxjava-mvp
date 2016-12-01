@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bgs">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:id="@+id/lines">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="输入用户名 13003221671"
+            android:textColorHint="@color/write"
+            android:textSize="14sp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/password"
+            android:hint="输入密码  12345678"
+            android:textColor="@color/write"
+            android:textColorHint="@color/write"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/bnt_denglu"
+        android:layout_below="@id/lines"
+        android:textColor="@color/write"
+        android:textSize="14sp"
+        android:text="登录"
+        android:background="@color/btn_red_pressed"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+
+
+
+</RelativeLayout>

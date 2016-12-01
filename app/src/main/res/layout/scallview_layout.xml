@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.myprojiect.myapplication.Wight.ScallView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image_a"
+        android:src="@mipmap/c"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/d"
+        android:id="@+id/image_b"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/e"
+        android:id="@+id/image_c"
+        android:clickable="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/t"
+        android:id="@+id/image_d"
+        android:clickable="true"/>
+
+</com.myprojiect.myapplication.Wight.ScallView>
